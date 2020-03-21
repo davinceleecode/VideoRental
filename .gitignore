@@ -1,0 +1,10 @@
+Web.config
+*.DS_Store
+Thumbs.db
+*.log
+*.lock
+*.tmp
+/bin
+/out
+*.o
+*.pyc
