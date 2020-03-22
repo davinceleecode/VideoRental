@@ -98,12 +98,7 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\Microsoft.Owin.Secur
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csprojAssemblyReference.cache
-C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csproj.CopyComplete
-C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.dll
-C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.pdb
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.InitialModel.resources
-C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csproj.GenerateResource.cache
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddMembershipType.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.PopulateMembershipTypes.resources
@@ -115,3 +110,8 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Mi
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddGenre.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.PopulateGenre.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddNavigationalPropertyGenreInMovie.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csproj.GenerateResource.cache
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csproj.CopyComplete
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.dll
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.pdb
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csprojAssemblyReference.cache
