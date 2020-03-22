@@ -108,3 +108,5 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Mi
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddMembershipType.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.PopulateMembershipTypes.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddNameInMembershipType.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.UpdateExistingRecordsInMembershipTypes.resources
