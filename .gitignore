@@ -7,3 +7,5 @@ Thumbs.db
 /out
 *.o
 *.pyc
+*.mdf
+*.ldf
