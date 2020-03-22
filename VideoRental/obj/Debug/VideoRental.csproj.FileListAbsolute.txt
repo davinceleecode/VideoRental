@@ -111,3 +111,7 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Mi
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddNameInMembershipType.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.UpdateExistingRecordsInMembershipTypes.resources
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddBirthdateInCustomer.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddingMovies.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddGenre.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.PopulateGenre.resources
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.Migrations.AddNavigationalPropertyGenreInMovie.resources

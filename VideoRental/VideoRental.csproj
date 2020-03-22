@@ -207,9 +207,26 @@
     <Compile Include="Migrations\202003221202242_AddBirthdateInCustomer.Designer.cs">
       <DependentUpon>202003221202242_AddBirthdateInCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003221220317_AddingMovies.cs" />
+    <Compile Include="Migrations\202003221220317_AddingMovies.Designer.cs">
+      <DependentUpon>202003221220317_AddingMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003221222471_AddGenre.cs" />
+    <Compile Include="Migrations\202003221222471_AddGenre.Designer.cs">
+      <DependentUpon>202003221222471_AddGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003221224513_PopulateGenre.cs" />
+    <Compile Include="Migrations\202003221224513_PopulateGenre.Designer.cs">
+      <DependentUpon>202003221224513_PopulateGenre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003221231540_AddNavigationalPropertyGenreInMovie.cs" />
+    <Compile Include="Migrations\202003221231540_AddNavigationalPropertyGenreInMovie.Designer.cs">
+      <DependentUpon>202003221231540_AddNavigationalPropertyGenreInMovie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -280,6 +297,7 @@
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -321,6 +339,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003221202242_AddBirthdateInCustomer.resx">
       <DependentUpon>202003221202242_AddBirthdateInCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003221220317_AddingMovies.resx">
+      <DependentUpon>202003221220317_AddingMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003221222471_AddGenre.resx">
+      <DependentUpon>202003221222471_AddGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003221224513_PopulateGenre.resx">
+      <DependentUpon>202003221224513_PopulateGenre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003221231540_AddNavigationalPropertyGenreInMovie.resx">
+      <DependentUpon>202003221231540_AddNavigationalPropertyGenreInMovie.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

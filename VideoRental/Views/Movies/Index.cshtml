@@ -8,13 +8,19 @@
 <h2>@ViewBag.Title</h2>
 
 <table class="table table-striped table-hover table-bordered">
-    <tr>
-        <th>Movie</th>
-    </tr>
-    @foreach (var movie in Model)
-    {
+    <thead>
         <tr>
-            <td>@movie.Name</td>
+            <th>Movie</th>
+            <th>Genre</th>
         </tr>
-    }
+    </thead>
+    <tbody>        
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(movie.Name,"Details","Movies", new { Id = movie.Id },null)</td>
+                <td>@movie.Genre.Name</td>
+            </tr>
+        }
+    </tbody>
 </table>
