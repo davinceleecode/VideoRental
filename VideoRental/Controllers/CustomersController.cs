@@ -27,6 +27,7 @@ namespace VideoRental.Controllers
 
 
 
+
         public ActionResult New()
         {
             var membershipTypes = _context.MembershipTypes.ToList();
@@ -34,6 +35,7 @@ namespace VideoRental.Controllers
             {
                 MembershipTypes = membershipTypes
             };
+            ViewBag.Title = "New Customer";
             return View("CustomerForm", viewModel);
         }
 
@@ -49,6 +51,7 @@ namespace VideoRental.Controllers
                 Customer = customer,
                 MembershipTypes = _context.MembershipTypes.ToList()
             };
+            ViewBag.Title = "Edit Customer";
             return View("CustomerForm", viewModel);
         }
 
