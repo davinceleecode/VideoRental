@@ -114,3 +114,4 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.cs
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csproj.CopyComplete
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.dll
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.pdb
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csprojAssemblyReference.cache
