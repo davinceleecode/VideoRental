@@ -115,3 +115,11 @@ C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.cs
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.dll
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.pdb
 C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\obj\Debug\VideoRental.csprojAssemblyReference.cache
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Net.Http.Formatting.dll
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Web.Http.dll
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Web.Http.WebHost.dll
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Net.Http.Formatting.xml
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Web.Http.xml
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\System.Web.Http.WebHost.xml
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\AutoMapper.dll
+C:\Users\Lee\Desktop\SourceCode\VideoRental\VideoRental\bin\AutoMapper.xml

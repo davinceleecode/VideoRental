@@ -30,7 +30,6 @@ namespace VideoRental.Controllers
             {
                 Genres = genre
             };
-            ViewBag.Title = "New Movie";
             return View("MovieForm", viewModel);
         }
 
@@ -41,19 +40,31 @@ namespace VideoRental.Controllers
             if (movie == null)
                 return HttpNotFound();
 
-            var viewModel = new MovieFormViewModel()
+            var viewModel = new MovieFormViewModel(movie)
             {
-                Movie = movie,
                 Genres = _context.Genres.ToList()
             };
 
-            ViewBag.Title = "Edit Movie";
             return View("MovieForm", viewModel);
         }
 
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
+
+
+            if (!ModelState.IsValid)
+            {
+                var videModel = new MovieFormViewModel(movie)
+                {
+                    Genres = _context.Genres.ToList()
+                };
+                return View("MovieForm", videModel);
+            }
+
+
             if (movie.Id == 0)
             {
                 movie.DateAdded = DateTime.Now;
