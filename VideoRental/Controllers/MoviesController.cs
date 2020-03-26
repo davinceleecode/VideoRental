@@ -23,6 +23,7 @@ namespace VideoRental.Controllers
             _context.Dispose();
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult New()
         {
             var genre = _context.Genres.ToList();
@@ -33,6 +34,7 @@ namespace VideoRental.Controllers
             return View("MovieForm", viewModel);
         }
 
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
@@ -50,6 +52,7 @@ namespace VideoRental.Controllers
 
 
         [HttpPost]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         [ValidateAntiForgeryToken]
         public ActionResult Save(Movie movie)
         {
@@ -88,7 +91,11 @@ namespace VideoRental.Controllers
         public ActionResult Index()
         {
             var movies = _context.Movies.Include(m => m.Genre).ToList();
-            return View(movies);
+
+            if (User.IsInRole(RoleName.CanManageMovies))
+                return View("Index", movies);
+
+            return View("ReadOnlyIndex", movies);
         }
 
         public ActionResult Details(int Id)

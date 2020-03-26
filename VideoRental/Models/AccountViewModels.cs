@@ -8,6 +8,12 @@ namespace VideoRental.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        [Required]
+        [Display(Name = "Driving License")]
+        public string DrivingLicense { get; set; }
+        [Required]
+        [Range(0, 50)]
+        public int Phone { get; set; }
     }
 
     public class ExternalLoginListViewModel
@@ -79,6 +85,14 @@ namespace VideoRental.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        [Required]
+        [Display(Name = "Driving License")]
+        public string DrivingLicense { get; set; }
+
+        [Required]
+        [Range(0, 50)]
+        public int Phone { get; set; }
     }
 
     public class ResetPasswordViewModel
